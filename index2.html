@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<!-- Formatted with Prettier -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hari Om Mishra — Frontend Developer & Student of BCA</title>
+  <meta name="description"
+        content="Portfolio of Hari Om Mishra — Frontend Developer and Student of BCA
+                specialising in HTML, CSS, and modern JavaScript." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fira+Code:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#hero" class="nav__brand">
+      &lt;<span>HOM</span> /&gt;
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav__toggle-input" />
+    <label for="nav-toggle" class="nav__hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul class="nav__links">
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#skills" class="nav__link">Skills</a></li>
+      <li><a href="#projects" class="nav__link">Projects</a></li>
+      <li><a href="#contact" class="nav__link">Contact</a></li>
+      <li><a href="#contact" class="btn btn--primary nav__cta">Hire Me</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="hero" class="hero">
+      <div class="blob blob--1" aria-hidden="true"></div>
+      <div class="blob blob--2" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">👋 Hello, I am</p>
+        <h1 class="hero__name">Hari Om Mishra</h1>
+        <h2 class="hero__title">Frontend Developer &amp; Student of BCA</h2>
+        <p class="hero__subtitle">
+          I specialise in crafting beautiful, responsive websites using HTML, CSS, and multiple modern frameworks. I am passionate about learning and continuously improving my skills to create intuitive user experiences.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact" class="btn btn--outline">Get In Touch</a>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll to About section">↓</a>
+    </section>
+    
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <p class="section__subtitle">A little bit about who I am</p>
+        <div class="about__grid">
+          
+          <div class="about__avatar" aria-hidden="true">🧑‍💻</div>
+          <div class="about__body">
+            <p class="about__bio">
+              I am a dedicated frontend developer based in Greater Noida, currently pursuing my BCA degree. I am passionate about crafting
+                <em>intutive</em> and
+              <em>responsive user interfaces</em> and am actively expanding my skills in HTML, CSS, JavaScript, React,Saas, and TypeScript.
+              I am committed to writing clean, accessible code and continuously improving performance.
+              I aim to bring a fresh, learner's mindset, ready to grow &amp;contribute to dynamic teams.
+            </p>
+            <p class="about__bio">
+              When I'm not coding, I'm often on a winding road as a Professional Drifter, feeling the rush of speed 
+              behind the wheel. I also bring that same drive to the volleyball court, where I play competitively and with great passion. Whether I'm navigating a tricky codebase or a tight corner on the track,
+              I'm always striving to grow both personally and professionally. 
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <span class="stat__value">2+</span>
+                <span class="stat__label">Years of Hands-on Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat__value">10+</span>
+                <span class="stat__label">Projects Worked On</span>
+              </div>
+              <div class="stat">
+                <span class="stat__value">7+</span>
+                <span class="stat__label">Practical Study & Projects</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <p class="section__subtitle">Technologies I work with every day</p>
+        <div class="skills__grid">
+          
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <span class="skill-card__icon" aria-hidden="true">✅</span>
+              <span class="skill-card__name">HTML </span>
+              <span class="skill-card__pct">95%</span>
+            </div>
+            <div class="skill-card__track"
+                role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+                aria-label="HTML proficiency 95%">
+              
+              <div class="skill-card__bar" style="--bar-level: 95%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <span class="skill-card__icon" aria-hidden="true">🎨</span>
+              <span class="skill-card__name">CSS</span>
+              <span class="skill-card__pct">90%</span>
+            </div>
+            <div class="skill-card__track"
+                role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                aria-label="CSS proficiency 90%">
+              <div class="skill-card__bar" style="--bar-level: 90%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <span class="skill-card__icon" aria-hidden="true">⚡</span>
+              <span class="skill-card__name">JavaScript</span>
+              <span class="skill-card__pct">85%</span>
+            </div>
+            <div class="skill-card__track"
+                role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                aria-label="JavaScript proficiency 85%">
+              <div class="skill-card__bar" style="--bar-level: 85%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <span class="skill-card__icon" aria-hidden="true">⚛️</span>
+              <span class="skill-card__name">React</span>
+              <span class="skill-card__pct">50%</span>
+            </div>
+            <div class="skill-card__track"
+                role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+                aria-label="React proficiency 50%">
+              <div class="skill-card__bar" style="--bar-level: 50%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <span class="skill-card__icon" aria-hidden="true">🎨</span>
+              <span class="skill-card__name">Saas</span>
+              <span class="skill-card__pct">38%</span>
+            </div>
+            <div class="skill-card__track"
+                role="progressbar" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100"
+                aria-label="Saas proficiency 38%">
+              <div class="skill-card__bar" style="--bar-level: 38%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-card__header">
+              <span class="skill-card__icon" aria-hidden="true">🔷</span>
+              <span class="skill-card__name">TypeScript</span>
+              <span class="skill-card__pct">32%</span>
+            </div>
+            <div class="skill-card__track"
+                role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100"
+                aria-label="TypeScript proficiency 32%">
+              <div class="skill-card__bar" style="--bar-level: 32%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <p  class="section__subtitle">A selection of things I have built</p>
+        <div class="projects__grid">
+          
+          <article class="project-card" style="--card-accent: #6c63ff">
+            <div class="project-card__header">
+              <span class="project-card__emoji" aria-hidden="true">🧑‍💻</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Static Portfolio</h3>
+              <p class="project-card__desc">
+                A sleek, multisection portfolio site built with pure HTML and CSS, showcasing responsive design and modern layout techniques.
+              </p>
+              <ul class="project-card__tags" aria-label="Technologies used">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">Flexbox</li>
+              </ul>
+            </div>
+            
+            <a href="#" class="project-card__overlay" aria-label="View Static Portfolio project">
+              <span>View Project →</span>
+            </a>
+          </article>
+          
+          <article class="project-card" style="--card-accent: #43b89c">
+            <div class="project-card__header">
+              <span class="project-card__emoji" aria-hidden="true">🌐</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Responsive Landing Page</h3>
+              <p class="project-card__desc">
+                A responsive landing page for a fictional company, showcasing modern design principles and smooth animations.
+              </p>
+              <ul class="project-card__tags" aria-label="Technologies used">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">Media Queries</li>
+              </ul>
+            </div>
+            <a href="#" class="project-card__overlay" aria-label="View Responsive Landing Page project">
+              <span>View Project →</span>
+            </a>
+          </article>
+          
+          <article class="project-card" style="--card-accent: #f06292">
+            <div class="project-card__header">
+              <span class="project-card__emoji" aria-hidden="true">🖼️</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Photo Gallery</h3>
+              <p class="project-card__desc">
+                A grid-based image gallery with hover effects and lightbox pop-ups. 
+              </p>
+              <ul class="project-card__tags" aria-label="Technologies used">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">CSS Transitions</li>
+              </ul>
+            </div>
+            <a href="#" class="project-card__overlay" aria-label="View Photo Gallery project">
+              <span>View Project →</span>
+            </a>
+          </article>
+          
+          <article class="project-card" style="--card-accent: #ff8a65">
+            <div class="project-card__header">
+              <span class="project-card__emoji" aria-hidden="true">🎨</span>
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">CSS Animations Showcase</h3>
+              <p class="project-card__desc">
+                A collection of creative CSS animations and transitions for web applications. It demonstrates smooth CSS animations like buttons, banners, and page loads.
+              </p>
+              <ul class="project-card__tags" aria-label="Technologies used">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">Keyframe Animations</li>
+              </ul>
+            </div>
+            <a href="#" class="project-card__overlay" aria-label="View CSS Animations Showcase project">
+              <span>View Project →</span>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id="contact" class="section contact">
+      <div class="container contact__inner">
+        
+        <h2 class="section__title section__title--light">Get In Touch</h2>
+        
+        <p  class="section__subtitle section__subtitle--light">
+          Have a project in mind? Let's talk.
+        </p>
+        
+        <form
+          class="form"
+          action="mailto:hariommishra8b@gmail.com"
+          method="get"
+          enctype="text/plain"
+          aria-label="Contact form"
+        >
+          
+          
+          <div class="form__row">
+            <div class="form__field">
+              
+              <label for="cf-name" class="form__label">Name</label>
+              <input
+                id="cf-name"
+                name="name"
+                type="text"
+                class="form__input"
+                placeholder="Please enter your name"
+                required
+              />
+            </div>
+            <div class="form__field">
+              
+              <label for="cf-email" class="form__label">Email Address</label>
+              <input
+                id="cf-email"
+                name="email"
+                type="email"
+                class="form__input"
+                placeholder="Please enter your email"
+                required
+              />
+            </div>
+          </div>
+          
+          
+          <div class="form__field">
+            <label for="cf-subject" class="form__label">Subject</label>
+            <input
+              id="cf-subject"
+              name="subject"
+              type="text"
+              class="form__input"
+              placeholder="Project Enquiry"
+            />
+          </div>
+          
+          
+          <div class="form__field">
+            <label for="cf-message" class="form__label">Message</label>
+            <textarea
+              id="cf-message"
+              name="body"
+              class="form__input form__textarea"
+              placeholder="Tell me about your project…"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary form__submit">
+            Send Message 🚀
+          </button>
+        </form>
+        
+        
+        <div class="socials">
+          
+          
+          <a href="#" class="social-link" aria-label="GitHub profile">
+            🐙 GitHub
+          </a>
+          
+          <a href="https://www.linkedin.com/in/hari-om-mishra-15a5083b4" class="social-link" aria-label="LinkedIn profile">
+            💼 LinkedIn
+          </a>
+          
+          <a href="mailto:hariommishra8b@gmail.com" class="social-link" aria-label="E-mail address">
+            ✉️ E-mail
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  
+  <footer class="footer">
+    
+    <p>© 2026 Hari Om Mishra. Built with pure HTML &amp; CSS — no frameworks.</p>
+  </footer>
+</body>
+</html>
+
+
+
